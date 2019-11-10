@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>Homepage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+body {
+  background-image: url('b1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+center{
+	font-size:40;
+	color:#d9e6f2;
+}
+.dropbtn {
+  background-color: #0099cc;
+  color: white;
+  padding: 40px ;
+  font-size: 40px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 25px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+#pdf{
+  text-decoration: none;
+  color: #0099cc;
+}
+</style>
+</head>
+<body>
+<center>
+<h1>Birth and Death Integration Service</h1>
+</center>
+
+
+<div class="dropdown" style="left:400;top:150">
+  <button class="dropbtn">ADMINISTRATOR</button>
+  <div class="dropdown-content">
+	    <a href="loginpage.html">LOGIN</a>
+    	<a href="register_admin.html">REGISTER</a>
+  </div>
+</div>
+<div class="dropdown" style="left:500;top:150">
+  <button class="dropbtn">CITIZEN</button>
+  <div class="dropdown-content">
+    <a href="loginpage.html">LOGIN</a>
+    <a href="register.html">REGISTER</a>
+  </div>
+</div>
+<div class="dropdown" style="left:600;top:150">
+  <a href="https://drive.google.com/open?id=1ygeC4v5tDgtIQvtZkgbCjx7h-4FztPuX" id="pdf"><button class="dropbtn">MANUAL</button></a>
+</div>
+
+</body>
+</html>
